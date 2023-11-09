@@ -1,0 +1,139 @@
+.calc {
+  background-image: linear-gradient(to right, #00adfa, #00fc73);
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  /* padding-left: 20%; */
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+
+
+.calcbtn {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: -4.5px;
+  font-size: x-large;
+  width: 4%;
+  background-color: #050c26;
+  color: white;
+  border: none;
+}
+
+/* .calcbtn:hover {
+  background-color: none;
+} */
+.calcbtn,
+.calcbtn1 {
+  background-color: #050c26 !important;
+  color: white !important;
+}
+
+.table {
+  width: 100%;
+}
+
+.calctd .calcbtn1 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: x-large;
+  width: 16%;
+  color: white;
+  border: none;
+  background-color: #050c26;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  margin-top: -0.1px;
+  margin-left: -0.1px;
+}
+
+.calcinput1,
+.calcoutput1 {
+  height: 3em !important;
+  font-size: xx-large !important;
+  width: 9.27em !important;
+  background-color: #172d67 !important;
+  resize: none !important;
+  direction: rtl !important;
+  writing-mode: vertical-rl !important;
+  /* Set vertical writing mode from bottom to top */
+  text-orientation: upright !important;
+  margin-bottom: -15% !important;
+  border: 0px solid #172d67 !important;
+  outline: none !important;
+  color: white !important;
+  pointer-events: none !important;
+  margin-right: -526% !important;
+}
+
+.calcoutput1 {
+  margin-bottom: -3.655% !important;
+}
+
+.calcinput1 {
+  border-top-left-radius: 15px !important;
+  border-top-right-radius: 15px !important;
+}
+
+.first-row {
+  margin-top: -5px;
+}
+
+@media only screen and (max-width: 380px) {
+
+  .calcinput1,
+  .calcoutput1 {
+    width: 5.14em;
+    border-radius: none;
+    margin-bottom: -10px;
+    border-radius: unset;
+    margin-left: 1px;
+  }
+
+  .calcbtn {
+    width: 20.91%;
+  }
+
+  .calcbtn1 {
+    width: 150px;
+  }
+
+  .calc {
+    padding-left: 15%;
+  }
+
+  .calcinput1 {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+}
+
+@media only screen and (min-width: 380px) and (max-width: 500px) {
+
+  .calcinput1,
+  .calcoutput1 {
+    width: 5.14em;
+    border-radius: none;
+    margin-bottom: -10px;
+    border-radius: unset;
+    margin-left: 1px;
+  }
+
+  .calcbtn {
+    width: 19.32%;
+  }
+
+  .calcbtn1 {
+    width: 150px;
+  }
+
+  .calc {
+    padding-left: 15%;
+  }
+
+  .calcinput1 {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+}
